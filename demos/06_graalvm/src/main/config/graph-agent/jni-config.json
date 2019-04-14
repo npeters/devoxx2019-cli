@@ -1,0 +1,10 @@
+[
+{
+  "name":"GraphDemo",
+  "methods":[{"name":"main","parameterTypes":[ "java.lang.String[]"] }]
+},
+{
+  "name":"java.lang.Class",
+  "methods":[{"name":"getCanonicalName","parameterTypes":[] }]
+}
+]

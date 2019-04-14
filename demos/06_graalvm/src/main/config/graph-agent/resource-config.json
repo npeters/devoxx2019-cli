@@ -1,0 +1,11 @@
+{
+  "resources":[
+    {"pattern":"META-INF/services/jdk.vm.ci.hotspot.HotSpotJVMCIBackendFactory"}, 
+    {"pattern":"META-INF/services/jdk.vm.ci.services.JVMCIServiceLocator"}, 
+    {"pattern":"META-INF/services/org.graalvm.compiler.debug.TTYStreamProvider"}, 
+    {"pattern":"META-INF/services/org.graalvm.compiler.hotspot.CompilerConfigurationFactory"}, 
+    {"pattern":"META-INF/services/org.graalvm.compiler.hotspot.HotSpotBackendFactory"}, 
+    {"pattern":"META-INF/services/org.graalvm.compiler.hotspot.HotSpotGraalManagementRegistration"}, 
+    {"pattern":"graphdemo.properties"}
+  ]
+}
