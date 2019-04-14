@@ -8,3 +8,5 @@ build/
 lib/
 out/
 out
+.zcompdump*
+demos/07_graalvm-substitution/reports

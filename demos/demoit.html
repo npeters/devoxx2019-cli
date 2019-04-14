@@ -1,0 +1,280 @@
+<h1>CLI avec Picocli et GraalVM</h1>
+
+<div>
+    <img style="width: 35%" src="/images/picocligraalvm.png"/>
+</div>
+
+---
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<h1>Qui ?</h1>
+<div class="split">
+    <div style="width: 50%;">
+        <img class="avatar" src="images/profile-npe-large.png"/>
+        <p>Nicolas Peters
+        <p>
+        <p>Lead Tech
+        <p>
+            <i class="fa fa-twitter" style="font-size:36px"></i> @nicolaspeters</p>
+            <i class="fa fa-github" style="font-size:36px"></i> github.com/npeters</p>
+    </div>
+    <div style="height: 55%;width: 50%;vertical-align: middle;">
+        <img style="margin-top: 10%;max-width: 100%;max-height: 130%;"  src="/images/mycanal-screen.jpg"/>
+    </div>
+
+</div>
+<style>
+    .avatar {
+        vertical-align: middle;
+        height: 55%;
+        border-radius: 50%;
+    }
+</style>
+---
+<h1>Term Power !</h1>
+<div>
+    <img style="width: 35%" src="/images/dukeUp.svg">
+    <img style="width: 25%" src="/images/bandaged-heart.png" />
+    <img style="width: 35%" src="/images/terminal.png">
+
+</div>
+---
+
+<h1><img style="height: 3.5rem" src="/images/picocli-logo.png">picocli: a mighty tiny command line interface </h1>
+<img class="logo" src="/images/picocli.png">
+<img style="width: 65%" src="/images/OptionsAndParameters2.png">
+<style>
+    .logo {
+      margin-bottom: 5%;
+      width: 30%;
+    }
+</style>
+---
+
+
+<h1><img style="height: 3.5rem" src="/images/picocli-logo.png">picocli</h1>
+<div class="split">
+    <web-term path="01_picocli"></web-term>
+    <source-code folder="01_picocli" files="src/main/java/JwtCli.java build.gradle.kts" start-lines=""
+                 end-lines=""></source-code>
+</div>
+
+<style>
+    source-code {
+        width: 50%;
+    }
+</style>
+
+---
+
+<h1><img style="height: 3.5rem" src="/images/picocli-logo.png">picocli: <i>"git like"</i></h1>
+<div class="split">
+    <web-term path="02_picocli-v2"></web-term>
+    <source-code folder="02_picocli-v2" files="src/main/java/JwtCli.java" start-lines="" end-lines=""></source-code>
+</div>
+
+<style>
+    source-code {
+        width: 50%;
+    }
+</style>
+
+---
+
+<h1>Term: Ansi et Terminfo</h1>
+<div class="split">
+    <web-term path="03_term"></web-term>
+</div>
+---
+
+<h1>jline</h1>
+<div class="split">
+    <web-term  path="04_jline"></web-term>
+    <div style="width:  30%;padding-left: 1%;">
+        <img style="margin-bottom:10%" src="/images/jline.jpg"/>
+
+       <lu style="alignment: center;text-align: left">
+           <li style="padding-bottom: 1rem">🧰 du term</li>
+           <li style="padding-bottom: 1rem">Prompt interactif</li>
+           <li style="padding-bottom: 1rem">GNU Readline</li>
+           <li style="padding-bottom: 1rem">jshell, sbt, idea</li>
+           <li style="padding-bottom: 1rem">Créé 2002</li>
+       </lu>
+
+    </div>
+</div>
+
+---
+
+<h1>NailGun: la CLI en mode Client/Serveur</h1>
+<div class="split">
+    <web-term path="05_nailgun"></web-term>
+
+    <div style="width: 30%;;padding-left: 1%;">
+        <img style="margin-bottom:10%" src="/images/nailgun.png"/>
+        <img style="margin-bottom:10%" src="/images/facebook.png"/>
+        <lu style="alignment: center;text-align: left">
+            <li style="padding-bottom: 1rem">un Daemon en Java</li>
+            <li style="padding-bottom: 1rem">le client écrie en C</li>
+            <li style="padding-bottom: 1rem">lagom, buckbuild, facebook</li>
+            <li style="padding-bottom: 1rem">Créé 2004</li>
+        </lu>
+
+    </div>
+</div>
+---
+<h1>GraalVM: Architecture</h1>
+<div>
+    <img style="alignment: center;" src="images/graalvm.jpg">
+</div>
+---
+<h1>GraalVM</h1>
+<div class="split">
+    <web-term path="06_graalvm"></web-term>
+    <source-code style="width: 60%;" folder="06_graalvm/src/main/java"
+                 files="StaticInitDemo.java GraphDemo.java"
+                 start-lines=""
+                 end-lines="">
+
+    </source-code>
+</div>
+---
+<h1>GraalVM: Substitution</h1>
+<div class="split">
+    <web-term path="07_graalvm-substitution"></web-term>
+    <source-code style="width: 50%;" folder="07_graalvm-substitution/src/main/java"
+                 files="HelloWorldRuntimeMode.java ModeProviderFeature.java"
+                 start-lines="" end-lines="">
+
+    </source-code>
+</div>
+---
+<h1>GraalVM: on génère un binaire! 🤔 mais alors 😱</h1>
+<div class="split">
+    <div style="max-width: 50%;width: 50%">
+        <h2>👍</h2>
+        <div style="alignment: left;margin-left: 10%;margin-top: 10%">
+        <lu style="text-align: left;">
+            <li style="padding-bottom: 1rem">Startup time ⚡️</li>
+            <li style="padding-bottom: 1rem">mémoire/cpu 😍️</li>
+            <li style="padding-bottom: 1rem">😘 🐳🐳🐳</li>
+        </lu>
+        </div>
+    </div>
+    <div >
+        <h2>👎</h2>
+        <div>
+        <lu style="text-align: left;alignment: center;">
+            <li style="padding-bottom: 1rem">Pas de JVMTI/JMX 🙈 😨</li>
+            <li style="padding-bottom: 1rem">Compilation ⏱ 🥺</li>
+            <li style="padding-bottom: 1rem">Substitution 😥</li>
+            <li style="padding-bottom: 1rem">Segfault 💥 et TestIT</li>
+        </lu>
+        </div>
+    </div>
+
+</div>
+<style>
+    li{
+        padding-bottom: 1rem;
+        font-size: 3rem;
+    }
+    h2{
+        margin-bottom: 5rem;
+        margin-top: 3rem;
+    }
+
+
+</style>
+
+
+---
+<h1>La quête du Graal</h1>
+<div class="wrapper">
+    <header class="header">
+        <img style="width: 30%" src="/images/micronaut.svg"/>
+    </header>
+    <div style="display: flex; align-items: center;">
+        <article class="main"><img  src="/images/indianajones2.gif"/></article>
+        <aside   class="aside-1">
+            <img  src="/images/quarkus-logo.png"/>
+            <img  src="/images/redhat.png"/>
+        </aside>
+        <aside   class="aside-2"><img  src="/images/spring.png"/></aside>
+    </div>
+    <footer class="footer"><img style="width: 15%" src="/images/oracle.png"/></footer>
+</div>
+
+
+<style>
+
+    .wrapper {
+        display: flex;
+        flex-flow: row wrap;
+        height: calc(100% - 8em);
+    }
+
+    .wrapper > * {
+        flex: 1 100%;
+    }
+
+    .header {
+
+    }
+
+    .main > img {
+        width: 100%;
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    .aside-1 {
+        width: 25%;
+        order: 1;
+        padding-left: 0%;
+    }
+    .main    {
+        flex: 2 0px;
+        order: 2;
+    }
+    .aside-2 {
+        order: 3;
+        width: 25%;
+        padding-right: 0%;
+    }
+
+    .footer  {
+
+    }
+</style>
+---
+<h1>Références</h1>
+<lu style="alignment: center;text-align: left;padding-left: 5%;font-size: 2.5rem;">
+    <li>picocli <a>http://picocli.info</a></li>
+    <li>capsule <a>http://www.capsule.io/</a></li>
+    <li>ANSI <a>https://en.wikipedia.org/wiki/ANSI_escape_code</a></li>
+    <li>jansi <a>https://github.com/fusesource/jansi</a></li>
+    <li>progressbar <a>http://tongfei.me/progressbar</a></li>
+    <li>jline <a>https://github.com/jline/jline3</a></li>
+    <li>NailGun <a>https://github.com/facebook/nailgun</a></li>
+    <li>GraalVM <a>https://www.graalvm.org/</a></li>
+    <li>Agent GraalVM <a>https://github.com/oracle/graal/blob/master/substratevm/CONFIGURE.md</a></li>
+    <li>Build your own Command Line <a>http://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html</a></li>
+    <li>SDKMAN <a>https://sdkman.io/</a></li>
+    <li>Demoit <a>https://github.com/dgageot/demoit</a></li>
+    <li>DoomFire <a>https://github.com/chriswhocodes/DoomFire</a></li>
+</lu>
+<style>
+    a {
+        text-decoration: underline;
+        font-size: 1.75rem;
+    }
+
+
+</style>
+
+
+---
+<div style="font-size: 5rem">
+    Merci / Question
+</div>
