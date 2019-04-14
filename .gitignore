@@ -1,1 +1,10 @@
 .idea/
+libHelloWorld.so
+demos/jaotc/libjava.base.so
+demos/jaotc/HelloWorld.class
+gradle/
+.gradle/
+build/
+lib/
+out/
+out
